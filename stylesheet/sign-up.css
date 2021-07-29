@@ -1,0 +1,150 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+section {
+    max-width: 100%;
+    min-height: 100px;
+    display: flex;
+}
+
+.img {
+    background-image: url(/images/edubanner.jpg);
+    width: 28%;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    width: 70%;
+    min-height: 100px
+}
+
+.text p {
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+    margin-left: 10px;
+}
+
+.navbar {
+    max-width: 100%;
+    min-height: 100px;
+    background: blue;
+}
+
+.one {
+    cursor: pointer;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+#mybutton {
+  padding: 10px 25px;
+  border-style: solid;
+  box-shadow: skyblue 0 0 2px 1px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 495px;
+}
+
+.sign {
+  width: 70%;
+  height: 80px;
+  background: blue;
+  text-align: center;
+  margin: 0 auto;
+  color: darkblue;
+}
+
+form {
+  width: 70%;
+  height: 378px;
+  margin: 0 auto;
+  background: lightblue;
+}
+
+input[type=email], input[type=password], input[type=text] {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  background: blue;
+  color: skyblue;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: red;
+}
+
+.cancelbtn:hover, .signupbtn {
+  color: skyblue;
+}
+
+.container2 {
+  margin-top: 50px;
+}
+
+.container2 h1 {
+  padding-top: 20px;
+}
+
+.container2 form {
+  height: 275px;
+}
+
+.page-footer {
+    min-height: 100px;  
+    background: skyblue;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
+.bold {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.footer-copyright {
+    background: rgb(209, 231, 240);
+    color: blue;
+    padding: 10px 0;
+    font-size: 20px;
+}

@@ -1,0 +1,238 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+* {
+    margin: auto;
+}
+
+section {
+    max-width: 100%;
+    min-height: 100px;
+    display: flex;
+}
+
+.img {
+    background-image: url(/images/edubanner.jpg);
+    width: 28%;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    width: 70%;
+    min-height: 100px
+}
+
+.text p {
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+    margin-left: 10px;
+}
+
+.navbar {
+    max-width: 100%;
+    min-height: 100px;
+    background: blue;
+}
+
+.one {
+    cursor: pointer;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+#mybutton {
+    padding: 10px 25px;
+    border-style: solid;
+    box-shadow: skyblue 0 0 2px 1px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.container{
+    max-width: 100%;
+    min-height: 640px;
+}
+
+.container #p {
+    font-size: 140px;
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    font-style: italic;
+    transform: rotate(-20deg);
+    color: rgba(199, 189, 189, 0.931);
+}
+
+#intro {
+    max-width: 45%;
+    min-height: 215px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: skyblue;
+}
+
+.container #div1, .container #div2 {
+    max-width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.container .col {
+    width: 32%;
+    height: 300px;
+}
+
+.container .col img {
+    width: 100%;
+}
+
+.container-club {
+    max-width: 100%;
+    min-height: 780px;
+}
+
+.container-club p {
+    font-size: 70px;
+    font-style: italic;
+}
+
+#club {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: blue;
+}
+
+.club {
+    width: 70%;
+    height: 1760px;
+    margin: auto;
+}
+
+.club #div1, .club #div2, .club #div3 {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.club #div2 {
+    margin-top: 200px;
+}
+
+.club #div1 .p, .club #div2 .p, .club #div3 .p {
+    width: 70%;
+}
+
+.club .col {
+    width: 69%;
+    height: 490px;
+}
+
+.club .col1 {
+    width: 29%;
+    height: 490px;
+}
+
+.club .col img {
+    width: 100%;
+}
+
+.club #div1 .p, .club #div2 .p, .club #div3 .p {
+    font-size: 70px;
+    position: absolute;
+    left: 20%;
+    font-style: italic;
+    transform: rotate(-30deg);
+    color: rgb(70, 70, 250);
+}
+
+.col1 p {
+    font-size: 30px;
+    color: skyblue;
+}
+
+.page-footer {
+    min-height: 100px;  
+    background: skyblue;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.bold {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.footer-copyright {
+    background: rgb(209, 231, 240);
+    color: blue;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-footer {
+    min-height: 100px;  
+    background: skyblue;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
+.bold {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.footer-copyright {
+    background: rgb(209, 231, 240);
+    color: blue;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.container img{
+    width: 100%;
+}

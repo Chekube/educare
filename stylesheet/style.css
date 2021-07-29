@@ -1,0 +1,122 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+section {
+    max-width: 100%;
+    min-height: 100px;
+    display: flex;
+}
+
+.img {
+    background-image: url(/images/edubanner.jpg);
+    width: 28%;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    width: 70%;
+    min-height: 100px
+}
+
+.text p {
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+    margin-left: 10px;
+}
+
+.navbar {
+    max-width: 100%;
+    min-height: 100px;
+    background: blue;
+}
+
+.one {
+    cursor: pointer;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+#mybutton {
+    padding: 10px 25px;
+    border-style: solid;
+    box-shadow: skyblue 0 0 2px 1px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+header {
+    max-width: 100%;
+    min-height: 700px;
+    background-image: url(/images/Edu9.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.description h1 {
+    color: #4695b4;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    background:#2b34b6;
+    border-radius: 0;
+    color:#fff;
+    cursor: pointer;
+}
+
+.description button:hover {
+    color: skyblue;
+}
+
+.page-footer {
+    min-height: 100px;  
+    background: skyblue;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+
+}
+
+.bold {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.footer-copyright {
+    background: rgb(209, 231, 240);
+    color: blue;
+    padding: 10px 0;
+    font-size: 20px;
+}

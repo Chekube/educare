@@ -1,0 +1,23 @@
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background: #f2f6e9;
+    }
+
+    .text p {
+        font-size: 25px;
+    }
+
+    .one {
+        text-align: center;
+    }
+
+    .nav-link {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+}
